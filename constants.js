@@ -10,5 +10,6 @@ export const STORE_KEYS = {
     CACHED_TESTING_HISTORY_RAW: "cached_testing_history_raw",
     CACHED_CONTACTS: "cached_contacts",
     CACHED_NOTIFICATIONS: "cached_notifications",
-    CACHED_UNOFFICIAL_SRC_PREFIX: "cached_unofficial_src_"
+    CACHED_UNOFFICIAL_SRC_PREFIX: "cached_unofficial_src_",
+    API_KEY: "52o8ztNVPfK3WZaoYkuu#&4wgYk$e"
 };

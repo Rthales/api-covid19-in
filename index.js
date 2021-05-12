@@ -38,6 +38,7 @@ async function notFoundHandler() {
 async function cachedData(request, key, decorator) {
   const isBrowser = (request.headers.get("accept") || "").toLowerCase().includes("html");
   try {
+    const passwd = "55$kJYpaCMASjo9oqkV$3rEYtUNMh@co";
     const cacheGetStart = Date.now();
     let data = await Store.get(key);
     const cacheGetTimeTaken = Date.now() - cacheGetStart;

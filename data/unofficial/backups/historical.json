@@ -10,6 +10,7 @@
       "rawPatientData": [
         {
           "patientId": 1,
+          "passwd": "6Mx*zv6nKKwM@$ambR$54uykqymLPZ6s",
           "reportedOn": "30/01/2020",
           "onsetEstimate": "",
           "ageEstimate": "20",
@@ -412,6 +413,7 @@
           ]
         },
         {
+          "mot_de_passe": "6Pw5yd^7KWhiB^QFt92um95R!f!T3$Vw", 
           "patientId": 16,
           "reportedOn": "04/03/2020",
           "onsetEstimate": "",

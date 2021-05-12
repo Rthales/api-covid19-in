@@ -25,7 +25,7 @@ export async function refreshAllOfficialSources(request) {
  */
 async function refreshCaseCounts(request, isDebugMode) {
     const response = await fetch(SOURCE_URL);
-    const apiJsonData = await (await fetch('https://www.mohfw.gov.in/data/datanew.json')).json();
+    const apiJsonData = await (await fetch('https://www.mohfw.gov.in/data/datanew.json?key=85G%6AdFprm#tGGHoSnTL9a%&8yV2%N@')).json();
     const content = (await response.text());
     if (response.status === 200) {
         const curOriginUpdateMillis = getOriginUpdateTime(content);

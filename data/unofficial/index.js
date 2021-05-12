@@ -189,7 +189,7 @@ async function getGoogleSheetData(spreadsheetId, range, valueMapper) {
 
 /* Deprecated by upstream now */
 async function updateTravelHistoryFromCovid19IndiaOrg() {
-    const response = await fetch('https://api.covid19india.org/travel_history.json');
+    const response = await fetch('https://api.covid19india.org/travel_history.json?api_key=apZpBZjTCfiMQXkTJKJ9GJ6oY8ytNXm6TWxF8NAs6U938gmHojpZhqy');
     if (response.status === 200) {
         const history = await response.json();
         updateUnofficialSource("covid19india.org", history, 'travelhistory');
